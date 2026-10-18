@@ -1,16 +1,56 @@
-# React + Vite
+# React Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive single-page Job Portal application developed using React.js and Vite. The application allows users to browse available jobs, view job details, and navigate between different sections of the portal.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive professional job portal interface
+- Home page with job search and featured jobs
+- Job listing page
+- Job details page
+- Interactive job cards
+- Navigation between pages
+- About section
+- Reusable React components
+- Dynamic job data
+- Responsive design for desktop, tablet, and mobile devices
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Router
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+job-portal/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── JobCard.jsx
+│   │   ├── Navbar.jsx
+│   │   └── ...
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Jobs.jsx
+│   │   ├── JobDetails.jsx
+│   │   └── About.jsx
+│   │
+│   ├── data/
+│   │   └── jobs.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
